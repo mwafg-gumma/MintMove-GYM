@@ -32,7 +32,7 @@ header .container .logo img {
     object-fit: cover;
 }
 header .container .logo h1{
-    font-weight: 200;
+    font-weight: 800;
 }
 header .container nav .list{
     display: flex;
@@ -69,7 +69,7 @@ header .container nav .list li a::after {
 }
 
 header .container nav .list li a:hover::after {
-    width: 100%; /* Full width on hover */
+    width: 100%; 
 }
 header .container nav .list li a:hover{
     color: rgb(4, 188, 151);
@@ -135,6 +135,18 @@ header .container .icon{
         z-index: 1000;
         margin-top: 0;
     }
+    header .container .logo{
+    padding: 0 15px;
+    }
+    header .container .logo img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    }
+    header .container .logo h1{
+    font-weight: 200;
+    font-size: 20px;
+    }
     header .container nav .list.active {
         top: 70px; 
     }
@@ -149,6 +161,18 @@ header .container .icon{
         color: #fff;
     }
 }
+@media(max-width:392px){
+        }
+    header .container .logo img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    }
+    header .container .logo h1{
+    font-weight: 200;
+    font-size: 20px;
+    }
+
 /* main section */
 
 .main{
